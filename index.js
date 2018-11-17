@@ -18,7 +18,7 @@ function currentLine(line){
       for (var i = 0 ; i<line.length ; i++){
     x = x.length
     x = x + ". "
-    x = x + `${line[i]}`
+    x = x + x.length
     if (line.indexOf(line[i])<(line.length-1)){
       x = x + ", "
     }
