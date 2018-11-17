@@ -16,7 +16,7 @@ function currentLine(line){
   let x = []
   if (line.length>0) {
       for (var i = 0 ; i<line.length ; i++){
-    x = x + (i+1) 
+    x = x.length
     x = x + ". "
     x = x + `${line[i]}`
     if (line.indexOf(line[i])<(line.length-1)){
