@@ -1,5 +1,4 @@
 function takeANumber(line){
-  x = 
   line.push(line.length() + 1 )
 }
 
