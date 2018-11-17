@@ -1,11 +1,7 @@
 function takeANumber(line,number){
-  for (let i = 0 ; i < line.length ; i++)
-  {
-    line.push(x)
-    x = x + 1 
+  for (let i = 0 ; i < line.length ; i++){
+    line.push
   }
-  line.push(line[line.length()+x])
-  return `Welcome, ${number}. You are number ${line[line.length()]} in line.`
   
 }
 function nowServing(line){
