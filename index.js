@@ -1,9 +1,8 @@
-function takeANumber(line,number){
-  for (let i = 0 ; i < line.length ; i++){
-    line.push
-  }
-  
+function takeANumber(line){
+  x = 
+  line.push(line.length() + 1 )
 }
+
 function nowServing(line){
   if (line.length > 0) {
     return `Currently serving ${line.shift()}.`
