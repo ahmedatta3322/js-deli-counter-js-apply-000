@@ -1,5 +1,5 @@
 function takeANumber(line){
-  line.push(line.length() + 1 )
+  line.push(line.length + 1 )
 }
 
 function nowServing(line){
